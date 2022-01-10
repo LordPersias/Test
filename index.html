@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header class="hero">
+        <div class="banner">
+            <h1>Menu</h1>
+            <button class="btn modal-btn1">Triangulo</button>
+            <button class="btn modal-btn2">Contar</button>
+        </div>
+    </header>
+    <div class="modal-overlay1">
+        <div class="modal-container1">
+            <h3>
+                <script src="js/triangulo.js"></script>
+            </h3>
+            <button class="close-btn1"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+    <div class="modal-overlay2">
+        <div class="modal-container2">
+            <h3>
+                <h1>Contar</h1>
+                <span id="value">0</span>
+                <div class="button-container">
+                    <button class="btn diminuir">Diminuir</button>
+                    <button class="btn restart">Restart</button>
+                    <button class="btn aumentar">Aumentar</button>
+                </div>
+                <script src="js/contar.js"></script>
+            </h3>
+            <button class="close-btn2"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
